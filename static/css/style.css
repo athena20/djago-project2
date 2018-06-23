@@ -1,0 +1,23 @@
+.events-text-center {
+text-align:center;
+font-size: 4rem;
+font-family: 'Playfair Display', serif;
+}
+.main-event-block {
+border-top: 1px solid silver;
+}
+.time-style {
+margin-top: 10px;
+}
+.event-title {
+margin-left:10px;
+font-size: 1.8rem;
+font-weight:bold;
+}
+.statia-form{
+display:flex;
+padding: 25px;
+}
+.statia-form div{
+margin: 25px;
+}

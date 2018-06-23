@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<h3  class="events-text-center">New news</h3>
+{% for news in news %}
+<div class="container">
+    <div class="main-event-block">
+    <p class="time-style">{{ news.time}}<span class="event-title">{{ news.title }}</span></p>
+    <p class="text-style">{{ news.text }}</p>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}
