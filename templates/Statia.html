@@ -1,12 +1,9 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
-
-<h2 class="events-text-center">{{ news.cardtitle }}</h2>>
+<h2 class="events-text-center">{{ news.cardtitle }}</h2>
 <div class="statia-form">
-
     <img src="{{ news.cardimg.url }}" alt="Card image cap" width="45%">
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consectetur laborum neque numquam perferendis placeat? Aspernatur quis, sint? Atque delectus earum enim ipsum iure laboriosam maiores minima nam nulla officia!</div>
-    <div></div>
+    <div>{{ news.carddescription}}</div>
 </div>
 {% endblock %}

@@ -22,8 +22,8 @@ from news import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^home/$', views.home, name='home'),
-    url(r'^newsinline/$', views.newsinline, name='Newsinlines'),
+    url(r'^$', views.home, name='home'),
+    url(r'^newsinline/', views.newsinline, name='Newsinlines'),
     url(r'^home/(?P<news_id>\d+)/$', views.statia, name='Statia')
 ]
 

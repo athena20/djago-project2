@@ -10,7 +10,11 @@ class News(models.Model):
     cardimg = models.ImageField(upload_to='news/', blank=True, null=True)
     cardtitle = models.CharField(max_length=200)
     cardtext = models.TextField()
-    carddescription = models.CharField(max_length=100)
+    carddescription = models.TextField()
+    created = models.DateTimeField(auto_now_add=True)
+
+    def datepublished(self):
+        return self.created.strftime('%B %d  %I %P ')
 
     def __str__(self):
         return self.cardtitle
