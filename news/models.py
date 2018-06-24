@@ -34,3 +34,13 @@ class Newsinline(models.Model):
 
     def str(self):
         return self.title
+class Comment(models.Model):
+    news = models.ForeignKey(News)
+    text = models.TextField()
+    created = models.DateTimeField(auto_now_add=True)
+    creator = models.TextField()
+    class Meta:
+        ordering = ('-created',)
+
+
+

@@ -4,6 +4,6 @@
 <h2 class="events-text-center">{{ news.cardtitle }}</h2>
 <div class="statia-form">
     <img src="{{ news.cardimg.url }}" alt="Card image cap" width="45%">
-    <div>{{ news.carddescription}}</div>
+    <div>{{ news.carddescription}}<p>Date: {{ news.created }}</p></div>
 </div>
 {% endblock %}
