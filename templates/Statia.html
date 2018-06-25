@@ -7,7 +7,9 @@
     <div>{{ new.carddescription}}</div>
 </div>
 
-<div class="comment-styles">
+<div class="main-container">
+<div class="in-main-container">
+    <div class="comment-styles">
     {% for comment in comments %}
         <div class="comment-style-in">
             <p class="comment-user">{{ comment.user }}</p>
@@ -17,6 +19,7 @@
         </div>
     {% endfor %}
     </div>
+
 
 <div class="container-center">
 <form action="" method="post" enctype="multipart/form-data">

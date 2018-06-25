@@ -1,7 +1,10 @@
 .events-text-center {
-text-align:center;
+display:flex;
+justify-content:center;
 font-size: 4rem;
--family: 'Playfair Display', serif;
+font-family: 'Playfair Display', serif;
+text-decoration:none;
+margin-bootom:10px;
 }
 .main-event-block {
 border-top: 1px solid silver;
