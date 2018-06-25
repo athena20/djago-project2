@@ -5,7 +5,7 @@
 <h2 class="events-text-center">{{ news.cardtitle }}</h2>
 <div class="statia-form">
     <img src="{{ news.cardimg.url }}" alt="Card image cap" width="45%">
-    <div>{{ news.carddescription}}<p>Date: {{ news.created }}</p></div>
+    <div>{{ news.carddescription}}<h4>Date: {{ news.created }}</h4></div>
 </div>
 <div class="comment-styles">
     {% for comment in comments %}

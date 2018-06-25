@@ -6,7 +6,7 @@
 <!--<<<<<<< HEAD-->
 
 <!--=======-->
-<h2 class="events-text-center">Breaking news</h2>
+<a  href="{% url 'Lastnews' %}" class="events-text-center">Last news</a>
 
 <div class="container">
     <div class="row text-center">
@@ -28,7 +28,7 @@
         <a href="{% url 'Sport' %}" class="events-text-center">Sport</a>
             {% for new in news %}
             {% if new.genre == 0 %}
-        <div class="container">
+        <div>
             <div class="main-event-block">
             <p class="time-style">{{ new.created }}<a href="{% url 'Statia' new.id%}" class="event-title">{{ new.cardtitle }}</a></p>
         </div>
@@ -37,10 +37,26 @@
     </div>
     </div>
     <div>
-        <h2 class="events-text-center">Cultura</h2>
+        <a href="{% url 'Cultura' %}" class="events-text-center">Cultura</a>
+         {% for new in news %}
+         {% if new.genre == 1 %}
+            <div>
+                <div class="main-event-block">
+                <p class="time-style">{{ new.created }}<a href="{% url 'Statia' new.id%}" class="event-title">{{ new.cardtitle }}</a></p>
+            </div>
+                {% endif %}
+            {% endfor %}
     </div>
     <div>
-        <h2 class="events-text-center">Country</h2>
+        <a href="{% url 'Country' %}" class="events-text-center">Country</a>
+         {% for new in news %}
+         {% if new.genre == 2 %}
+            <div>
+                <div class="main-event-block">
+                <p class="time-style">{{ new.created }}<a href="{% url 'Statia' new.id%}" class="event-title">{{ new.cardtitle }}</a></p>
+            </div>
+                {% endif %}
+            {% endfor %}
     </div>
 </div>
 {% endblock %}

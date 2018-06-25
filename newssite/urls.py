@@ -23,9 +23,11 @@ from news import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home, name='home'),
-    url(r'^newsinline/', views.newsinline, name='Newsinlines'),
+    url(r'^lastnews/', views.lastnews, name='Lastnews'),
     url(r'^home/(?P<news_id>\d+)/$', views.statia, name='Statia'),
     url(r'^sport/', views.sport, name='Sport'),
+    url(r'^cultura/', views.cultura, name='Cultura'),
+    url(r'^country/', views.country, name='Country'),
 ]
 
 if settings.DEBUG:
