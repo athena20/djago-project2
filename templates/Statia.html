@@ -1,9 +1,20 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
+
 <h2 class="events-text-center">{{ news.cardtitle }}</h2>
 <div class="statia-form">
     <img src="{{ news.cardimg.url }}" alt="Card image cap" width="45%">
     <div>{{ news.carddescription}}<p>Date: {{ news.created }}</p></div>
 </div>
+<div class="comment-styles">
+    {% for comment in comments %}
+        <div class="comment-style-in">
+            <p class="comment-user">{{ comment.user }}</p>
+            <p>{{ comment.text }}</p>
+            <p>{{ comment.created }}</p>
+            <p><img src="{{ comment.picture }}"></p>
+        </div>
+    {% endfor %}
+    </div>
 {% endblock %}

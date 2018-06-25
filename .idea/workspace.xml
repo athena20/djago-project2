@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="866f42ed-eed1-4f24-b36d-098a3cb5b694" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
 <<<<<<< HEAD
@@ -13,6 +14,11 @@
       <change beforePath="$PROJECT_DIR$/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.html" afterDir="false" />
 >>>>>>> a0276cb925db39f8e68926559b1e57713c8382ed
       <change beforePath="$PROJECT_DIR$/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Statia.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Statia.html" afterDir="false" />
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +29,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="225">
               <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+=======
+            <state relative-caret-position="120">
+              <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -38,8 +49,13 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/news/models.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="225">
               <caret line="36" selection-start-line="36" selection-end-line="42" selection-end-column="32" />
+=======
+            <state relative-caret-position="648">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -70,6 +86,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,6 +118,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
       <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/navbar.html">
           <provider selected="true" editor-type-id="text-editor" />
@@ -119,12 +138,17 @@
         <entry file="file://$PROJECT_DIR$/templates/Statia.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="120">
               <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
 =======
             <state relative-caret-position="45">
               <caret line="3" column="29" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="29" />
 >>>>>>> a0276cb925db39f8e68926559b1e57713c8382ed
+=======
+            <state relative-caret-position="165">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
             </state>
           </provider>
         </entry>
@@ -167,23 +191,31 @@
         <option value="$PROJECT_DIR$/newssite/settings.py" />
         <option value="$PROJECT_DIR$/news/admin.py" />
         <option value="$PROJECT_DIR$/templates/Satia.html" />
-        <option value="$PROJECT_DIR$/news/views.py" />
         <option value="$PROJECT_DIR$/newssite/urls.py" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
         <option value="$PROJECT_DIR$/templates/Statia.html" />
         <option value="$PROJECT_DIR$/news/models.py" />
 >>>>>>> a0276cb925db39f8e68926559b1e57713c8382ed
+=======
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
         <option value="$PROJECT_DIR$/templates/navbar.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/footer.html" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/templates/main.html" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/templates/Statia.html" />
         <option value="$PROJECT_DIR$/news/models.py" />
 =======
 >>>>>>> a0276cb925db39f8e68926559b1e57713c8382ed
+=======
+        <option value="$PROJECT_DIR$/news/models.py" />
+        <option value="$PROJECT_DIR$/templates/Statia.html" />
+        <option value="$PROJECT_DIR$/news/views.py" />
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
       </list>
     </option>
   </component>
@@ -207,6 +239,35 @@
               <item name="djago-project2" type="b2602c69:ProjectViewProjectNode" />
               <item name="djago-project2" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="djago-project2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djago-project2" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djago-project2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djago-project2" type="462c0819:PsiDirectoryNode" />
+              <item name="newssite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djago-project2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djago-project2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djago-project2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djago-project2" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djago-project2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djago-project2" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
           </expand>
           <select />
         </subPane>
@@ -247,10 +308,14 @@
     <frame x="67" y="25" width="1853" height="950" extended-state="6" />
     <layout>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.20054644" />
 =======
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.20062695" />
 >>>>>>> a0276cb925db39f8e68926559b1e57713c8382ed
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.20062695" />
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -258,10 +323,14 @@
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32925338" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36964503" />
 =======
       <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36885247" />
 >>>>>>> a0276cb925db39f8e68926559b1e57713c8382ed
+=======
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36885247" />
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -539,6 +608,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -586,6 +656,11 @@
         <state relative-caret-position="120">
           <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
 =======
+=======
+    <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -601,6 +676,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -619,6 +695,22 @@
 =======
         <state relative-caret-position="45">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="29" />
+=======
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
         </state>
       </provider>
     </entry>
@@ -630,6 +722,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/news/models.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -640,16 +733,36 @@
 =======
         <state relative-caret-position="283">
           <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+=======
+    <entry file="file://$PROJECT_DIR$/templates/Statia.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/main.html">
+    <entry file="file://$PROJECT_DIR$/news/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="648">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
+<<<<<<< HEAD
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
 >>>>>>> a0276cb925db39f8e68926559b1e57713c8382ed
+=======
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+>>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
           </folding>
         </state>
       </provider>

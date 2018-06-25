@@ -44,6 +44,7 @@ class Newsinline(models.Model):
 
     def str(self):
         return self.title
+# <<<<<<< HEAD
 class Comment(models.Model):
     news = models.ForeignKey(News)
     text = models.TextField()
@@ -53,4 +54,4 @@ class Comment(models.Model):
         ordering = ('-created',)
 
 
-
+# >>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
