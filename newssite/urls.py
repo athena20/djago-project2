@@ -24,7 +24,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home, name='home'),
     url(r'^newsinline/', views.newsinline, name='Newsinlines'),
-    url(r'^home/(?P<news_id>\d+)/$', views.statia, name='Statia')
+    url(r'^home/(?P<news_id>\d+)/$', views.statia, name='Statia'),
+    url(r'^sport/', views.sport, name='Sport'),
 ]
 
 if settings.DEBUG:

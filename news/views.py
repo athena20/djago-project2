@@ -19,3 +19,6 @@ def newsinline(request):
 def statia(request, news_id):
     statia_news = News.objects.get(id=news_id)
     return render(request,'Statia.html',{'news': statia_news})
+
+def sport(request):
+    return render(request,'Sport.html',{'news' : News.objects.all()})

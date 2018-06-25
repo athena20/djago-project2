@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+<style>
+    box-sizing:border-box;
+</style>
+{% block content %}
+<!--<<<<<<< HEAD-->
+
+<!--=======-->
+<h2 class="events-text-center">Breaking news</h2>
+
+<div class="container">
+    <div class="row text-center">
+    {% for new in news %}
+            <div class="col-lg-3 ">
+                <div class="card mb-2"  >
+                  <img class="card-img-top" src="{{ new.cardimg.url }}" alt="Card image cap" height="150px;">
+                  <div class="card-body">
+                      <h3 class="card-title"> <a href="{% url 'Statia' new.id %}">{{ new.cardtitle }}</a></h3>
+                      <p style="text-align:center;">{{ new.datepublished }}</p>
+                  </div>
+                </div>
+            </div>
+    {% endfor %}
+    </div>
+</div>
+<div class="container">
+    <div>
+        <a href="{% url 'Sport' %}" class="events-text-center">Sport</a>
+            {% for new in news %}
+            {% if new.genre == 0 %}
+        <div class="container">
+            <div class="main-event-block">
+            <p class="time-style">{{ new.created }}<a href="{% url 'Statia' new.id%}" class="event-title">{{ new.cardtitle }}</a></p>
+        </div>
+            {% endif %}
+            {% endfor %}
+    </div>
+    </div>
+    <div>
+        <h2 class="events-text-center">Cultura</h2>
+    </div>
+    <div>
+        <h2 class="events-text-center">Country</h2>
+    </div>
+</div>
+{% endblock %}

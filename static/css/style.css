@@ -1,7 +1,7 @@
 .events-text-center {
 text-align:center;
 font-size: 4rem;
-font-family: 'Playfair Display', serif;
+-family: 'Playfair Display', serif;
 }
 .main-event-block {
 border-top: 1px solid silver;
@@ -43,7 +43,4 @@ footer {
 .blocks {
     margin: 5px 40px;
     flex-wrap:wrap;
-}
-.footer-wrapper{
-    display: flex;
 }
