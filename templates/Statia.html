@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
-{% load static %}
 {% block content %}
 
-<h2 class="events-text-center">{{ news.cardtitle }}</h2>
+<h2 class="events-text-center">{{ new.cardtitle }}</h2>
 <div class="statia-form">
-    <img src="{{ news.cardimg.url }}" alt="Card image cap" width="45%">
-    <div>{{ news.carddescription}}<h4>Date: {{ news.created }}</h4></div>
+    <img src="{{ new.cardimg.url }}" alt="Card image cap" width="45%">
+    <div>{{ new.carddescription}}</div>
 </div>
+
 <div class="comment-styles">
     {% for comment in comments %}
         <div class="comment-style-in">
@@ -17,4 +17,16 @@
         </div>
     {% endfor %}
     </div>
+
+<div class="container-center">
+<form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% for field in form %}
+            <div class="items-form">
+                <div class="twoitems"><div class="form-group{% if field.errors %} is-invalid{% endif %}">{{ field }}</div></div>
+            </div>
+        {% endfor %}
+        <button class="btn-submit" type="submit">Коментувати</button>
+</form>
+</div>
 {% endblock %}

@@ -29,6 +29,7 @@ class News(models.Model):
     def __str__(self):
         return self.cardtitle
 
+
 class Newsinline(models.Model):
     class Meta:
         ordering = ('-time',)
@@ -44,7 +45,8 @@ class Newsinline(models.Model):
 
     def str(self):
         return self.title
-# <<<<<<< HEAD
+
+
 class Comment(models.Model):
     news = models.ForeignKey(News)
     text = models.TextField()
