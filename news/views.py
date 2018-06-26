@@ -7,7 +7,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
-from news.models import  News
+from news.models import News, Sport, Cultura, Country
 from news.models import Newsinline, Comment
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
@@ -55,8 +55,11 @@ def statia(request, news_id):
 
 
 def sport(request):
-    return render(request,'Sport.html',{'news' : News.objects.all()})
+    sports = Sport.objects.all()
+    return render(request,'Sport.html',{'sport' : sports})
 def cultura(request):
-    return render(request,'Cultura.html',{'news' : News.objects.all()})
+    cultur =Cultura.objects.all()
+    return render(request,'Cultura.html',{'cultura' : cultur })
 def country(request):
-    return render(request,'Country.html',{'news' : News.objects.all()})
+    countr =Country.objects.all()
+    return render(request,'Country.html',{'countr' : countr})

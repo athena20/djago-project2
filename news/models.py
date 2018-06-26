@@ -57,3 +57,40 @@ class Comment(models.Model):
 
 
 # >>>>>>> ee70f7bf9b8cc9d3ba772e4c6a0f654d553d684f
+class Sport(models.Model):
+    class Meta:
+        ordering = ('-time',)
+    verbose_name = 'Sport'
+    verbose_name_plural = 'sport'
+    time = models.DateTimeField(auto_now_add=True)
+    title = models.CharField(max_length=300)
+    text = models.TextField(max_length=400)
+
+    def str(self):
+        return self.title
+
+
+class Cultura(models.Model):
+    class Meta:
+        ordering = ('-time',)
+    verbose_name = 'cultura'
+    verbose_name_plural = 'cultura'
+    time = models.DateTimeField(auto_now_add=True)
+    title = models.CharField(max_length=300)
+    text = models.TextField(max_length=400)
+
+    def str(self):
+        return self.title
+
+
+class Country(models.Model):
+    class Meta:
+        ordering = ('-time',)
+    verbose_name = 'IT'
+    verbose_name_plural = 'IT'
+    time = models.DateTimeField(auto_now_add=True)
+    title = models.CharField(max_length=300)
+    text = models.TextField(max_length=400)
+
+    def str(self):
+        return self.title

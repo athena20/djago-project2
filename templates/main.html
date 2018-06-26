@@ -1,14 +1,10 @@
 {% extends 'base.html' %}
-<style>
-    box-sizing:border-box;
-</style>
 {% block content %}
 <!--<<<<<<< HEAD-->
 
 <!--=======-->
+<div class="center-main-news">
 <a  href="{% url 'Lastnews' %}" class="events-text-center">Last news</a>
-
-<div class="container">
     <div class="row text-center">
     {% for new in news %}
             <div class="col-lg-3 ">
@@ -23,7 +19,6 @@
     {% endfor %}
     </div>
 </div>
-</div>
 <div class="pagination">
   {% for num in news.paginator.page_range %}
         {% if num == news.number %}
@@ -33,19 +28,15 @@
         {% endif %}
     {% endfor %}
 </div>
-    <div>
+
         <a href="{% url 'Sport' %}" class="events-text-center">Sport</a>
             {% for new in news %}
             {% if new.genre == 0 %}
-        <div>
             <div class="main-event-block">
             <p class="time-style">{{ new.created }}<a href="{% url 'Statia' new.id%}" class="event-title">{{ new.cardtitle }}</a></p>
-        </div>
+            </div>
             {% endif %}
             {% endfor %}
-    </div>
-    </div>
-    <div>
         <a href="{% url 'Cultura' %}" class="events-text-center">Cultura</a>
          {% for new in news %}
          {% if new.genre == 1 %}
@@ -55,9 +46,8 @@
             </div>
                 {% endif %}
             {% endfor %}
-    </div>
-    <div>
-        <a href="{% url 'Country' %}" class="events-text-center">Country</a>
+
+        <a href="{% url 'Country' %}" class="events-text-center">IT</a>
          {% for new in news %}
          {% if new.genre == 2 %}
             <div>
@@ -66,5 +56,4 @@
             </div>
                 {% endif %}
             {% endfor %}
-    </div>
 {% endblock %}

@@ -1,3 +1,8 @@
+* {
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
 .events-text-center {
 display:flex;
 justify-content:center;
@@ -7,6 +12,8 @@ margin-bootom:10px;
 }
 .main-event-block {
 border-top: 1px solid silver;
+width:70%;
+margin:0 auto;
 }
 .time-style {
 margin-top: 10px;
@@ -69,4 +76,12 @@ footer {
 .pagination {
     display:flex;
     justify-content:center;
+}
+.news-colums{
+    width:80%;
+    margin: 0 auto;
+}
+.center-main-news {
+    width:80%;
+    margin:0 auto;
 }

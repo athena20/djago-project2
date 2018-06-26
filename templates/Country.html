@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+    <a href="{% url 'Country' %}" class="events-text-center">IT</a>
+    {% for new in countr %}
+    {% if new.genre == 0 %}
+    <div class="main-event-block">
+    <p class="time-style">{{ new.created }}<a href="{% url 'Statia' new.id%}" class="event-title">{{ new.cardtitle }}</a></p>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+{% endblock %}
