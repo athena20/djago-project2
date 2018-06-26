@@ -47,11 +47,15 @@ def statia(request, news_id):
 
 
 def sport(request):
-    sports = Sport.objects.all()
-    return render(request,'Sport.html',{'sport' : sports})
+    sports = News.objects.all()
+    return render(request,'Sport.html',{'news' : sports})
+
+
 def cultura(request):
-    cultur =Cultura.objects.all()
-    return render(request,'Cultura.html',{'cultura' : cultur })
+    cultur =News.objects.all()
+    return render(request,'Cultura.html',{'news' : cultur })
+
+
 def country(request):
-    countr =Country.objects.all()
-    return render(request,'Country.html',{'countr' : countr})
+    countr =News.objects.all()
+    return render(request,'Country.html',{'bla' : countr})

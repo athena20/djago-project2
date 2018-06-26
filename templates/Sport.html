@@ -1,11 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
-    <a href="{% url 'Sport' %}" class="events-text-center">Sport</a>
-    {% for new in sports %}
+ <a href="{% url 'Sport' %}" class="events-text-center">Sport</a>
+    {% for new in news %}
+    {% if new.genre == 0 %}
     <div class="main-event-block">
-    <p class="time-style">{{ new.time }}<a href="{% url 'Statia' new.id%}" class="event-title">{{ new.title }}</a></p>
-        <p>{{new.text}}</p>
+    <p class="time-style">{{ new.created }}<a href="{% url 'Statia' new.id%}" class="event-title">{{ new.cardtitle }}</a></p>
+        <p>{{new.cardtext}}</p>
     </div>
+    {% endif %}
     {% endfor %}
 
 {% endblock %}
