@@ -19,7 +19,6 @@ class News(models.Model):
     cardimg = models.ImageField(upload_to='news/', blank=True, null=True)
     cardtitle = models.CharField(max_length=200)
     cardtext = models.TextField()
-    carddescription = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
     genre = models.SmallIntegerField(choices=GENRES, default=0)
 

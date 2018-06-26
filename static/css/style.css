@@ -85,3 +85,46 @@ footer {
     width:80%;
     margin:0 auto;
 }
+.mar-img {
+    margin: 5px 10px;
+}
+.btn-submit {
+    background-color: #5cb85c;
+    padding: 6px 12px;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    color:white;
+    margin: 5px 0 10px 50%;
+}
+.in-main-container {
+    margin: 20px 0;
+}
+.container-center {
+    width: 100%;
+}
+.comment-style-in {
+    border-top: 1px solid silver;
+    width:80%;
+    word-wrap: break-word;
+    word-break: break-all;
+    margin: 5px auto;
+}
+textarea.form-control {
+    height:50px;
+    border: 1px solid silver;
+    border-radius: 2px;
+    width:100%;
+}
+
+.comment-styles {
+    margin:10px 0 0 10px;
+    padding:10px 0;
+}
+.items-form {
+    display:flex;
+    justify-content:center;
+}
+.twoitems {
+    margin: 10px 0 10px 20px;
+}

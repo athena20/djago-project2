@@ -34,14 +34,6 @@ def statia(request, news_id):
     news = get_object_or_404(News, id=news_id)
     comments = Comment.objects.filter(news=news)
     form = BookAddForm((request.POST or None), (request.FILES or None))
-    page = request.GET.get('page')
-    paginator = Paginator(news, 4)
-    try:
-        news = paginator.page(page)
-    except PageNotAnInteger:
-        news = paginator.page(1)
-    except EmptyPage:
-        news = paginator.page(paginator.num_pages)
     added = False
     if request.method == 'POST':
         if form.is_valid():
